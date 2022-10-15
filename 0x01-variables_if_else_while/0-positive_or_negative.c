@@ -3,12 +3,11 @@
 #include <time.h>
 
 /**
- * main - prints if the number is positive,negative or 
-0
-
- * Return: Always 0
+ * main - entry point
+ * Return: 0 success
  */
 int main(void)
+
 {
 	int n;
 
@@ -29,3 +28,5 @@ int main(void)
 	}
 
 	return (0);
+
+}
