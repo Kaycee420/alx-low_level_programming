@@ -1,18 +1,17 @@
 #include <stdio.h>
-
 /**
  * main - returns int value
  * Return: 0
  */
-
 int main(void)
 {
-	int num = 48;
+	int n;
 
-	while (num <= 57)
+	for (n = 48; n < 58; n++)
 	{
-		putchar(num);
-		num++;
+		putchar(n);
+		if (n != 57)
+	{
 
 		putchar(',');
 		putchar(' ');
